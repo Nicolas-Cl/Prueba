@@ -1,5 +1,79 @@
 
-.navbar_logo {
-	max-width: 50%;
-	margin-left: 50px;
+.navbar{
+	margin: 30px 50px;
+}
+
+
+.mainHeader {
+	font-size: 1rem;
+	background-color: black;
+}
+
+	.mainHeader__logo {
+		background: url('images/logo.png') no-repeat center / auto 100% transparent;
+		height: 3em;
+		float: left;
+		margin: 0.3em 0;
+		text-indent: -10000px;
+		width: 4em;
+	}
+
+	.mainHeader__logo-image {
+		height: inherit;
+		width: inherit;
+		display: block;
+	}
+
+	.mainHeader__nav {
+		display: table;
+		height: 120px;
+		float: right;
+		text-align: right;
+	}
+
+	.mainHeader__navlist {
+		text-align: center;
+		display: table-cell;
+  		vertical-align: bottom;
+  		padding: 3px;
+	}
+
+	.mainHeader__navitem {
+		display: inline-block;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		margin: 0 30px;
+	}
+
+	.mainHeader__link {
+		text-decoration: none;
+	}
+
+	.mainHeader__link:hover {
+		text-decoration: none;
+	}
+
+
+	@media screen and (max-width: 992px) {
+
+		.mainHeader__nav {
+			height: auto;
+			margin: 0 0 10px;
+		}
+		.mainHeader__logo {
+			float: none;
+			margin: 10px auto;
+		}
+
+		.mainHeader__navlist {
+			text-align: center;
+			margin: 1em 0;
+			padding: 0;
+		}
+	}
+
+.carousel {
+	max-height: auto;
+	max-width: auto;
+	background-image: 
 }
