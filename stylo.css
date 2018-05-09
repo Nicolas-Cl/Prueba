@@ -1,79 +1,42 @@
 
+.navbar-fondo{
+	background-color: #E9C41F;
+	border-top: solid 20px black;
+	text-align: center;
+
+}
+
 .navbar{
 	margin: 30px 50px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.logo-fundacion{
+	max-width: 80px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.container1{
+	background-color: #E8B4AD;
+
+}
+
+.container-carousel {
+	max-height: 300px;
+	max-width: 400px;
+	margin: 20px auto;
+}
+
+.foto1 .foto2 .foto3 {
+	margin-top: 20px;
+	text-align: center;
+	border: 8px solid black;
+	border-radius: 30px;
+	padding-bottom: 30px;
+	max-width: 100%;
 }
 
 
-.mainHeader {
-	font-size: 1rem;
-	background-color: black;
-}
 
-	.mainHeader__logo {
-		background: url('images/logo.png') no-repeat center / auto 100% transparent;
-		height: 3em;
-		float: left;
-		margin: 0.3em 0;
-		text-indent: -10000px;
-		width: 4em;
-	}
-
-	.mainHeader__logo-image {
-		height: inherit;
-		width: inherit;
-		display: block;
-	}
-
-	.mainHeader__nav {
-		display: table;
-		height: 120px;
-		float: right;
-		text-align: right;
-	}
-
-	.mainHeader__navlist {
-		text-align: center;
-		display: table-cell;
-  		vertical-align: bottom;
-  		padding: 3px;
-	}
-
-	.mainHeader__navitem {
-		display: inline-block;
-		font-size: 1.5em;
-		text-transform: uppercase;
-		margin: 0 30px;
-	}
-
-	.mainHeader__link {
-		text-decoration: none;
-	}
-
-	.mainHeader__link:hover {
-		text-decoration: none;
-	}
-
-
-	@media screen and (max-width: 992px) {
-
-		.mainHeader__nav {
-			height: auto;
-			margin: 0 0 10px;
-		}
-		.mainHeader__logo {
-			float: none;
-			margin: 10px auto;
-		}
-
-		.mainHeader__navlist {
-			text-align: center;
-			margin: 1em 0;
-			padding: 0;
-		}
-	}
-
-.carousel {
-	max-height: auto;
-	max-width: auto;
-	background-image: 
-}
