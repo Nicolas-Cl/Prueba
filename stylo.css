@@ -59,3 +59,11 @@ footer p {
 	margin-bottom: 0px;
 }
 
+.form-group {
+	text-align: right;
+}
+
+.container-noticias{
+	background-color: green;
+	padding: 20px;
+}
