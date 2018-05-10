@@ -38,5 +38,24 @@
 	max-width: 100%;
 }
 
+.container-map{
+	margin: 30px;
+}
 
+.money-footer {
+	border: 2px solid #ededed;
+	padding: 1vw;
+	text-align: center;
+	margin-top: 30px;
+}
+
+footer {
+	text-align: center;
+	background-color: #ededed;
+	padding: 1vw;
+}
+
+footer p {
+	margin-bottom: 0px;
+}
 
